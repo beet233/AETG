@@ -46,7 +46,7 @@ Heuristic/Meta-heuristic Search:
 
 为生成一个 Cover Array，也就是包括所有 T 个变量的等价类组合的用例集，假设系统总共有 K 个参数，T 即为这个 Cover Array 的强度，遵循以下步骤：
 
-1. 每个参数 有 个可能的取值。假设一开始有未覆盖对 Uncovered Pairs（以下简称 ucps）集和覆盖对 Covered Pairs（以下简称 cps）集。 ucps 初期即为所有 T 个变量的等价类组合，而 cps 初期为空。
+1. 每个参数有有限的多个可能的取值。假设一开始有未覆盖对 Uncovered Pairs（以下简称 ucps）集和覆盖对 Covered Pairs（以下简称 cps）集。 ucps 初期即为所有 T 个变量的等价类组合，而 cps 初期为空。
 
    > 注意，pair 看起来像是一个二元的概念，但这里也包括 T > 2 的场景，也称其为 pair。
 
